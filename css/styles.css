@@ -653,6 +653,7 @@ h3 {
 /* МОДАЛЬНОЕ ОКНО */
 .is-hidden {
   overflow: hidden;
+  transition-property: translatey(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -665,6 +666,7 @@ h3 {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.2);
+  transition-property: background-color, translatey(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
