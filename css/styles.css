@@ -808,7 +808,7 @@ h3 {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-lable::before {
-  background-image: url('/images/check.jpg');
+  background-image: url(images/check.jpg);
 }
 .contract {
   color: var(--hover-focus-color);
