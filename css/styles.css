@@ -813,6 +813,9 @@ h3 {
   background-size: contain;
   background-origin: content-box;
 }
+.modal-form-checkbox:focus + .modal-form-checkbox-lable::before {
+  outline: 1px solid black;
+}
 .contract {
   color: var(--hover-focus-color);
   font-size: 14px;
